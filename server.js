@@ -14,7 +14,7 @@ app.post('/',(req,res)=>{
         service:'gmail',
         auth:{
             user:'vipul1999agrawal@gmail.com',
-            pass:'Vipul@@/1999'
+            pass:'YOUR_PASSWORD '
         }
     })
     const mailOptions={
