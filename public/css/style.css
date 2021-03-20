@@ -1,0 +1,302 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:san-serif;
+}
+
+#spark
+{
+    font-size:25px;
+    font-weight:bold;
+    color:orange;
+    margin-right:100px;
+}
+#nav-bar
+{
+    position:sticky;
+    padding:0 !important;
+    top:0;
+    z-index: 10; 
+   
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba,#680ddf);
+    padding:0 !important;
+}
+.navbar-brand img
+{
+height:50px;
+width:200px;
+padding-left:10px;
+}
+.navbar-nav li
+{
+padding:10px !important;
+
+}
+.navbar-nav li a
+{
+color:white !important;
+font-weight: 600;
+float:right;
+}
+.navbar-nav li:hover{
+    background-image: linear-gradient(to right,#a517ba,#7731d1);
+   
+}
+.fa-bars
+{
+    color:#ffffff;
+    font-size:30px !important;
+
+}
+.logo img
+{
+    width:150%;
+    float:left;
+    
+}
+.carousel-item img
+{
+    height:10%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/************************************************************BANNER SECTION***************************************************************/
+#banner
+{
+    background-image:linear-gradient(to right,#a517ba,#680ddf);
+    color:#ffffff;
+    padding-top: 5%;
+   
+}
+.title
+{   margin-top: 0px;
+    font-size:30px;
+    font-weight: 500;
+   
+}
+.play
+{
+     width:45px; 
+     margin:20px;
+   
+   
+}
+#banner  a
+{
+   color:red;
+   text-decoration:underline;
+}
+#banner p{
+    padding-top: 60px;
+}
+ .img-fluid
+{
+width:80%;
+height: 80%;
+
+border-radius: 5%;
+opacity: 0.8;
+}
+
+.bottom
+    {   
+        margin-top: -22%;
+        margin-bottom: -16%;
+        height: 172px;
+        width: 100%;
+         opacity: 0.7;
+    }
+.px-wide {
+        width: 300px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+ #banner #dummy-text p
+{
+    visibility: hidden;
+}
+/* *************************************************Service Section*********************************************************************** */
+#services 
+{
+    padding:80px 0px;
+}
+.web
+{
+    border:0.5px solid blue;
+    border-radius:8px;
+    width:300px;
+    height:200px;
+}
+#services h4{
+    padding-top: 20px;
+    font-weight: 600;
+    padding-left:40px;
+}
+.making-fluid
+{
+   
+    padding:20px;
+}
+#services .row
+{
+padding-top: 30px;
+}
+.titles
+{
+    padding-top: 10px;
+    font-size:40px;
+    font-weight: 500;
+}
+.titles::before
+{
+    content: '';
+    background-image:linear-gradient(to top,#eb5d11,#f5d80c);
+    height: 5px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(60px);
+}
+.titles::after
+{
+content: '';
+background-image:linear-gradient(to top,#eb5d11,#f5d80c);
+height: 7px;
+width: 164px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transform: translateY(6px)
+}
+ #services .btn-primary
+{
+box-shadow: none;
+padding:8px 25px;
+border-radius:5px;
+border:none;
+background-image: linear-gradient(to top,#eb5d11,#f5d80c);
+}
+ p
+{
+    text-align: justify; 
+    /* text-align-last: justify; */
+  
+}
+/*************************************************************About us ************************************************************* */
+#about-us
+{
+   padding-top: 100px;
+   padding-bottom: 200px;
+   background: #edf5f3;
+   ;
+}
+.about-title
+{
+   font-size:30px;
+   font-weight: 400; 
+   margin-top: 8%;
+  
+}
+.about-uss ul li
+{
+    padding: 9px;
+}
+.about-uss
+{
+    padding-top:10px;
+}
+.change
+{
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+/************************************************************TESTIMONIALS ***************************************************************/
+#test
+{
+    margin:80px;
+}
+.tests
+{
+    border-left: 4px solid #7b1798;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.tests img{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    margin:10px;
+    border: 1px solid #7b1798;
+}
+.user
+{
+    display: inline-block;
+     font-size: 15px;  
+}
+/****************************************************************Social Media********************************************************** */
+#social-media
+{
+    background: #e4f09f;
+    padding: 80px;
+}
+.social-icons img
+{
+    width: 60px;
+   padding: 10px;
+
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+    
+    transition: 0.5s;
+}
+/**************************************************************Contact Us*********************************************************************/
+#footer
+{
+    background-image:linear-gradient(to right,#a517ba,#680ddf);
+    color:#fff;
+
+}
+.footer-box
+{
+    padding-top: 80px;
+}
+#footer-box img
+{
+    height:50px;
+    width:200px;
+    padding-left:10px;
+    margin-bottom: 20px;
+}
+.footer-box .fa {
+    margin-right:8px;
+    font-size: 25px;
+    height:40px;
+    width:40px;
+    text-align: center;
+    padding-top: 7px;
+    background-image:  linear-gradient(to top,#eb5d11,#f5d80c);
+    border-radius: 5px;
+}
+.footer-box .form-control
+{
+    margin-top: 25px;
+  
+}
+.footer-box .btn-primary
+{
+    margin-top: 30px;
+}
